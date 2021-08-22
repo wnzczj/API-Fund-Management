@@ -27,6 +27,7 @@ import java.util.List;
 public class FundmgtApplication {
 
     public static void main(String[] args) {
+        System.out.println("xiaojiang test jenkis");
         SpringApplication.run(FundmgtApplication.class, args);
     }
 
