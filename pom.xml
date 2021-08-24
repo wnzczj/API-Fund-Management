@@ -42,16 +42,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.apache.maven.plugins</groupId>-->
-<!--            <artifactId>maven-compiler-plugin</artifactId>-->
-<!--            <version>3.8.1</version>-->
-<!--            <configuration>-->
-<!--                <verbose>true</verbose>-->
-<!--                <fork>true</fork>-->
-<!--                <executable>${JAVA_HOME}/bin/javac</executable>-->
-<!--            </configuration>-->
-<!--        </dependency>-->
     </dependencies>
 
     <build>
@@ -63,13 +53,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-<!--                <version>3.8.1</version>-->
-<!--                <configuration>-->
-<!--                    <verbose>true</verbose>-->
-<!--                    <fork>true</fork>-->
-<!--&lt;!&ndash;                    <executable>${JAVA_HOME}/bin/javac</executable>&ndash;&gt;-->
-<!--                    <executable>/usr/bin/javac</executable>-->
-<!--                </configuration>-->
             </plugin>
         </plugins>
     </build>
