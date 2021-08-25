@@ -38,8 +38,8 @@ public class FundmgtApplication {
             List<Manager> managers = List.of(
                     new Manager("Chris", "Gardner", new ArrayList<>()),
                     new Manager("Frank", "Abagnale", new ArrayList<>()),
-                    new Manager("Bernard ", "Madoff", new ArrayList<>()),
-                    new Manager("Donald ", "Trump", new ArrayList<>())
+                    new Manager("Bernard ", "Madoff", new ArrayList<>())
+                    // new Manager("Donald ", "Trump", new ArrayList<>())
             );
             managerRepository.saveAll(managers);
 
