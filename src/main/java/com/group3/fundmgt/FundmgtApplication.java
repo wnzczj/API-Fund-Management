@@ -37,8 +37,8 @@ public class FundmgtApplication {
             /*存入2个manager*/
             List<Manager> managers = List.of(
                     new Manager("Chris", "Gardner", new ArrayList<>()),
-                    new Manager("Frank", "Abagnale", new ArrayList<>())
-                    //new Manager("Bernard ", "Madoff", new ArrayList<>())
+                    new Manager("Frank", "Abagnale", new ArrayList<>()),
+                    new Manager("Bernard ", "Madoff", new ArrayList<>())
                     // new Manager("Donald ", "Trump", new ArrayList<>())
             );
             managerRepository.saveAll(managers);
